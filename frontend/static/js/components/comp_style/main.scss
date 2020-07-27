@@ -1,0 +1,140 @@
+$bgColor: #C4C4C4;;
+$fontColor: #000000;
+$hoverColor: #33587C;
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.header {
+  background-color: $bgColor;
+  width: 100vw;
+  max-width: 100vw;
+  height: 10vh;
+  position: fixed;
+  z-index: 999;
+
+
+  .container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15%;
+
+
+    img{
+      margin-top: 5px;
+      padding-left: 10px;
+    }
+
+        li {
+        color: $fontColor;  
+        font-weight: normal;
+        font-size: 32px;
+        padding: 0 40px;
+        font-style: normal;
+        line-height: 37px;
+        font-family: Roboto;
+        margin-top: 30px;
+
+
+
+      }
+
+      
+      a{
+        color: $fontColor
+      }
+
+      li:hover{
+        background-color: $fontColor;
+        color:$bgColor;
+        transition: 0.2s;
+
+        a{
+          background-color: $fontColor;
+          color:$bgColor;
+          transition: 0.2s;
+        }
+      }
+
+      input{
+        margin: auto 40px auto 80px;
+        font-size: 20px;
+        font-weight: bold;
+        background: none;
+        border: none;
+        color: $fontColor;
+        padding: 5px;
+        margin-top: 30px;
+      }
+
+      input:hover{
+        background-color: $fontColor;
+        color: $bgColor;
+        transition: 0.2s;
+      }
+
+      img{
+        padding:  auto 40px;
+      }
+  }
+
+
+}
+
+ul {
+  list-style: none;
+  font-size: 14px;
+  line-height: 1.72222;
+
+  li {
+    display: inline-block;
+    position: relative;
+
+    a {
+      text-decoration: none;
+      background-color: transparent;
+      line-height: 24px;
+      color: $fontColor;
+    }
+  }
+}
+
+
+.footer{
+  background-color: $bgColor;
+  color: $fontColor;
+
+  height: 15vh;
+
+  .links{
+    position: relative;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a{
+      padding: 10px;
+    }
+    img{
+      position: relative;
+      max-width: 30px;
+      max-height: 30px;
+    }
+
+
+
+  }
+  
+  h4,h3{
+    margin: 5px 0;
+    text-align: center;
+  }
+
+}
